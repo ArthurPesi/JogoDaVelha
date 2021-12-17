@@ -1,3 +1,10 @@
+.center {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: black;
+}
+
 .board {
     display: inline-grid;
     gap: 10px 10px;
@@ -5,8 +12,12 @@
 }
 
 .square {
-    width: 80px;
-    height: 80px;
-    background-color: black;
+    width: 195px;
+    height: 195px;
+    background-color: cornflowerblue;
     font-size: 0cm;
+}
+
+.body{
+    background-color: cornflowerblue;
 }
